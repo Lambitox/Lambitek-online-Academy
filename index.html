@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAMBITEK ONLINE ACADEMY - Your Gateway to Academic Excellence</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        body { font-family: 'Arial', sans-serif; background-color: #f8f9fa; }
+        .hero { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 100px 0; }
+        .course-card { transition: transform 0.2s; }
+        .course-card:hover { transform: translateY(-5px); }
+        footer { background-color: #343a40; color: white; padding: 40px 0; }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#home">
+                <i class="fas fa-graduation-cap"></i> LAMBITEK ONLINE ACADEMY
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#courses">Courses</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#tutors">Tutors</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#exams">Exams</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    <li class="nav-item"><a class="btn btn-outline-light ms-2" href="#signup">Sign Up</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Hero Section -->
+    <section id="home" class="hero text-center">
+        <div class="container">
+            <h1 class="display-4 fw-bold mb-4">Unlock Your Potential with LAMBITEK</h1>
+            <p class="lead mb-4">Expert online tutoring for SAT, TOEFL, WAEC, UTME, and more. Personalized learning at your fingertips.</p>
+            <a href="#courses" class="btn btn-light btn-lg me-3">Explore Courses</a>
+            <a href="#contact" class="btn btn-outline-light btn-lg">Get Started</a>
+        </div>
+    </section>
+    <!-- Courses Section -->
+    <section id="courses" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Our Courses</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card course-card h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-chart-line fa-3x text-primary mb-3"></i>
+                            <h5 class="card-title">SAT Prep</h5>
+                            <p class="card-text">Comprehensive preparation for the Scholastic Assessment Test with practice tests and strategies.</p>
+                            <a href="#enroll-sat" class="btn btn-primary">Enroll Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card course-card h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-language fa-3x text-success mb-3"></i>
+                            <h5 class="card-title">TOEFL Mastery</h5>
+                            <p class="card-text">Build English proficiency for the Test of English as a Foreign Language.</p>
+                            <a href="#enroll-toefl" class="btn btn-success">Enroll Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card course-card h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-book fa-3x text-warning mb-3"></i>
+                            <h5 class="card-title">WAEC Essentials</h5>
+                            <p class="card-text">Tailored syllabus coverage for West African Examinations Council exams.</p>
+                            <a href="#enroll-waec" class="btn btn-warning">Enroll Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card course-card h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-rocket fa-3x text-info mb-3"></i>
+                            <h5 class="card-title">UTME/JAMB Prep</h5>
+                            <p class="card-text">Intensive training for Unified Tertiary Matriculation Examination success.</p>
+                            <a href="#enroll-utme" class="btn btn-info">Enroll Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card course-card h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-laptop-code fa-3x text-danger mb-3"></i>
+                            <h5 class="card-title">STEM Fundamentals</h5>
+                            <p class="card-text">Science, Technology, Engineering, and Math courses for all levels.</p>
+                            <a href="#enroll-stem" class="btn btn-danger">Enroll Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card course-card h-100">
+                        <div class="card-body text-center">
+                            <i class="fas fa-globe fa-3x text-secondary mb-3"></i>
+                            <h5 class="card-title">Custom Tutoring</h5>
+                            <p class="card-text">Personalized sessions for any subject or exam. Book your tutor today!</p>
+                            <a href="#book-tutor" class="btn btn-secondary">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Tutors Section -->
+    <section id="tutors" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Meet Our Expert Tutors</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card text-center">
+                        <img src="https://via.placeholder.com/300x200?text=Tutor+1" class="card-img-top" alt="Tutor 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Dr. Adebayo O.</h5>
+                            <p class="card-text">SAT & Math Specialist | 10+ years experience</p>
+                            <a href="#book-adebayo" class="btn btn-outline-primary">Book Session</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card text-center">
+                        <img src="https://via.placeholder.com/300x200?text=Tutor+2" class="card-img-top" alt="Tutor 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Ms. Chioma E.</h5>
+                            <p class="card-text">TOEFL & English Expert | Certified Instructor</p>
+                            <a href="#book-chioma" class="btn btn-outline-primary">Book Session</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card text-center">
+                        <img src="https://via.placeholder.com/300x200?text=Tutor+3" class="card-img-top" alt="Tutor 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Prof. Yusuf A.</h5>
+                            <p class="card-text">WAEC/UTME Guru | University Lecturer</p>
+                            <a href="#book-yusuf" class="btn btn-outline-primary">Book Session</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <a href="#more-tutors" class="btn btn-primary">View All Tutors</a>
+            </div>
+        </div>
+    </section>
+    <!-- Exams Section -->
+    <section id="exams" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Prepare for Any Exam</h2>
+            <p class="text-center lead mb-5">We cover all major examinations with structured programs, mock tests, and progress tracking.</p>
+            <div class="row text-center">
+                <div class="col-md-3 mb-3"><i class="fas fa-trophy fa-2x mb-2"></i><br>SAT</div>
+                <div class="col-md-3 mb-3"><i class="fas fa-certificate fa-2x mb-2"></i><br>TOEFL</div>
+                <div class="col-md-3 mb-3"><i class="fas fa-clipboard-check fa-2x mb-2"></i><br>WAEC</div>
+                <div class="col-md-3 mb-3"><i class="fas fa-door-open fa-2x mb-2"></i><br>UTME</div>
+            </div>
+            <div class="text-center">
+                <a href="#all-exams" class="btn btn-lg btn-success">Browse All Exam Preps</a>
+            </div>
+        </div>
+    </section>
+    <!-- About Section -->
+    <section id="about" class="py-5 bg-light">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h2>About LAMBITEK ONLINE ACADEMY</h2>
+                    <p>Inspired by platforms like Tuteria, LAMBITEK connects students with top tutors for personalized online learning. We specialize in exam preparations and skill-building courses to help you achieve your academic goals.</p>
+                    <p>Our mission: Make quality education accessible, affordable, and effective for everyone.</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="https://via.placeholder.com/500x300?text=About+Us" class="img-fluid rounded" alt="About Us">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Get in Touch</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>Contact Information</h5>
+                    <p><i class="fas fa-phone me-2"></i>Phone/WhatsApp: <strong>09156048975</strong></p>
+                    <p><i class="fas fa-envelope me-2"></i>Email: <strong>mercyosahonibadin@gmail.com</strong></p>
+                    <p><i class="fas fa-map-marker-alt me-2"></i>Address: Lagos, Nigeria (Virtual Platform)</p>
+                    <div class="mt-3">
+                        <a href="https://wa.me/2349156048975" class="btn btn-success me-2"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+                        <a href="mailto:mercyosahonibadin@gmail.com" class="btn btn-outline-primary"><i class="fas fa-envelope"></i> Email Us</a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h5>Send a Message</h5>
+                    <form>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="Your Name" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" placeholder="Your Email" required>
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" rows="4" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="container">
+            <p>&copy; 2025 LAMBITEK ONLINE ACADEMY. All rights reserved.</p>
+            <p>Empowering futures through education.</p>
+        </div>
+    </footer>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Simple form submission alert (for demo)
+        document.querySelector('form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Thank you for your message! We\'ll get back to you soon via email or WhatsApp.');
+        });
+        // Smooth scrolling for nav links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+        // Enroll buttons (demo alerts)
+        document.querySelectorAll('[href^="#enroll-"], [href^="#book-"]').forEach(btn => {
+            btn.addEventListener('click', function(e) {
+                e.preventDefault();
+                alert('Enrollment successful! Check your email for confirmation. Contact us at 09156048975 for details.');
+            });
+        });
+    </script>
+</body>
+</html>
