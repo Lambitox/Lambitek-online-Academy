@@ -1,2 +1,2 @@
-# Lambitek-online-Academy
+# Lambitek-Online-Academy
 online tutorial
